@@ -10,4 +10,4 @@ COPY webapp/* /webapp
 
 ENTRYPOINT [ "uvicorn" ]
 
-CMD [ "--host", "0.0.0.0", "demo-container-1.0.1:app" ]
+CMD [ "--host", "0.0.0.0", "main:app" ]
